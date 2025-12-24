@@ -30,7 +30,7 @@ A certain development environment is suggested to allow for streamlined developm
 
 > [!NOTE]
 > If the build fails due to authentication, you may need to authenticate to GitHub Packages.
-> Create a personal access tokens with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to ~/.gradle/gradle.properties. Create the file if it does not exist.
+> Create a personal access tokens with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=Morphe) and add your token to ~/.gradle/gradle.properties. Create the file if it does not exist.
 >
 > Example `gradle.properties` file:
 >
@@ -93,7 +93,7 @@ Follow these steps to configure your development environment for the `morphe-cli
    2. Click the green **Play** button next to the `main` function. This will generate a new run configuration
    3. Edit the run configuration as follows:
 
-      - **Program arguments**: Specify the arguments you would use to run ReVanced CLI from the command line. Example:
+      - **Program arguments**: Specify the arguments you would use to run Morphe CLI from the command line. Example:
 
         ```sh
         patch
@@ -151,7 +151,7 @@ Now that you have set up your development environment, verify that everything wo
 
    - Set a breakpoint in the projects
    - Run the project in debug mode and confirm that the breakpoint is hit
-   - Continue and let ReVanced CLI exit
+   - Continue and let Morphe CLI exit
 
 ## ⚠️ Troubleshoot your development environment
 

@@ -42,9 +42,9 @@ The only way to remove this delay is to turn off `Settings > Morphe > Return You
 
 Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`
 
-## 21 ReVanced Manager is crashing/not working
+## 21 Morphe Manager is crashing/not working
 
-ReVanced Manager is still a work in progress. Before submitting an issue, ensure it is not duplicating an existing issue.
+Morphe Manager is still a work in progress. Before submitting an issue, ensure it is not duplicating an existing issue.
 
 ## 22 Google login does not work
 

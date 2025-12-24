@@ -1,6 +1,6 @@
-# 🛠️ ReVanced Development
+# 🛠️ Morphe Development
 
-Documentation to start working with ReVanced.
+Documentation to start working with Morphe.
 
 ### Note: This guide could be modernized and updated
 
