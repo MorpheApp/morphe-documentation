@@ -20,9 +20,13 @@ Since we are an open-source community and depend on outside help, you can always
 
 Additional, [financial donations](https://morphe.software/donate) are always welcomed.
 
-## 7 Does Morphe always stay up to date with X?
+## 7 Can I patch the latest YouTube (Can I patch newer than the recommended version)?
 
-Morphe Patcher allows you to use patches on any app version. However, please note that patches may not work if you're not using the versions suggested by Morphe Manager.
+Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can patch the latest YouTube with Morphe. If you don't like to tinker or repatch often, then always patch the version of YouTube recommended by Morphe.
+
+Be aware that even if there are no unidentified bugs or issues with patching the latest YouTube, it will be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased work in progress features.
+
+If Morphe Manager fails to patch the latest YouTube, or you find patch bugs present in the latest YouTube but the bugs are _not_ present in the recommended YouTube, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches) repo (Be sure to search for duplicate issues before creating a new issue).
 
 ## 9 Where to get (full) APKs
 
