@@ -1,7 +1,5 @@
 # Frequently asked questions
 
-Please read them before asking questions that have been asked too many times.
-
 ## 1. What is Morphe?
 
 Morphe is a patcher for Android apps. You can use it to patch apps and have extra features and customizability. Currently, Morphe has patches for YouTube and YouTube Music.
@@ -16,9 +14,10 @@ Morphe is a patcher for Android apps. Android is very different from iOS so it i
 
 ## 5. How can I help?
 
-Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://github.com/MorpheApp) and contribute to Morphe by creating an issue or pull request. You can also help with translations on [Crowdin](https://translate.morphe.software).
+Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://github.com/MorpheApp) and contribute to Morphe by creating an issue or pull request.
+You can also help with translations on [Crowdin](https://translate.morphe.software).
 
-Additionaly, [financial donations](https://morphe.software/donate) are always welcome.
+Additionally, [financial donations](https://morphe.software/donate) are always welcome.
 
 ## 7 Can I patch the latest YouTube (Can I patch newer than the recommended version)?
 
@@ -44,32 +43,24 @@ To update a patched app, you need to patch and install the app again.
 
 Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. See #3 in [Questions](questions.md).
 
-## 10. Is Morphe affiliated with ReVanced?
-
-Morphe is not affiliated with ReVanced. Morphe was created by a team of former ReVanced developers and contributors.
-
-## 11. Capture logs 
+## 10. Capture logs 
 
 1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
 2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
 3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
 4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data.  Crash logs can only be collected using a computer and ADB.
 
-## 12 Where to get microG?
+## 11 Where to get microG?
 
 If you don't have microG installed, then the app will automatically redirect you to the correct [download page](https://morphe.software/microg).
 
-## 13 Is Morphe affiliated with ReVanced?
-
-Morphe is not affiliated with ReVanced. Morphe was created by a team of former ReVanced developers and contributors.
-
-## 14 How to update patched apps?
+## 12 How to update patched apps?
 
 To update a patched app, you need to patch and install the app again. You do not need to uninstall your existing patched app to upgrade the patched app.
 
 Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Check the `Settings > Morphe > About` screen to see if your patches are outdated.
 
-## 15 How do I backup my YouTube Morphe settings?
+## 13 How do I backup my YouTube Morphe settings?
 
 Morphe personalized settings are handled using text copy paste.
 
@@ -78,3 +69,8 @@ Go to: `Settings > Morphe > Miscellaneous > Import / Export`
 Press the copy button to copy your settings to the clipboard. Paste your settings somewhere safe to save (Note app, email message, etc).
 
 To restore your settings, paste your settings into the same `Import / Export` Morphe menu and press `Import`.
+
+## 14 Is Morphe affiliated with ReVanced?
+
+Morphe is not affiliated with ReVanced. Morphe was created by a team of former ReVanced developers and contributors.
+
