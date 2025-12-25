@@ -8,11 +8,11 @@ Morphe is a patcher for Android apps. Android is very different from iOS. Theref
 
 ## 3 How to get Morphe?
 
-Morphe is a patcher for Android apps. Getting Morphe means patching your app. Follow the [Morphe Manager documentation](https://github.com/MorpheApp/morphe-manager/tree/main/docs) to use Morphe Manager or the [Morphe CLI documentation](https://github.com/MorpheApp/morphe-cli/tree/main/docs) to use Morphe CLI.
+Morphe is a patcher for Android apps. Getting Morphe means patching your app. To patch your apps, download Morphe Manager from [Morphe.software](https://morphe.software) and Morphe CLI from [GitHub](https://github.com/MorpheApp/morphe-cli).
 
 ## 4 Does Morphe support non-rooted devices?
 
-Yes! Morphe supports non-root and rooted devices.
+Yes! Morphe supports both non-root and rooted devices.
 
 ## 6 How can I help?
 
@@ -49,4 +49,14 @@ Morphe is not affiliated with ReVanced. Morphe was created by a team of former R
 
 To update a patched app, you need to patch and install the app again. 
 
-Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. See #3 in [Questions](questions.md).
+Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app.
+
+## 15 How do I backup my YouTube Morphe settings?
+
+Morphe personalized settings are stored as copy paste text.
+
+Navigate to: `Settings > Morphe > Miscellaneous > Import / Export`
+
+Press the copy button to copy your settings to the clipboard. Paste your settnngs somewhere safe to save (Note app, email message, etc).
+
+To restore your settings, paste your settings into the same `Import / Export` Morphe menu and press `Import`.
