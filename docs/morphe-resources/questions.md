@@ -36,7 +36,7 @@ If only split apks are available (`apkm` or `xapk` files), then tools like [Anti
 
 ## 8. Where to get microG GmsCore?
 
-If you patched your app with the `GmsCore support` patch, opening your app will redirect you automatically to the correct download page.
+If you need to install microG, then after opening the app you will be redirected to the correct [microG download page](https://morphe.software/microg).
 
 ## 9. How to update patched apps?
 

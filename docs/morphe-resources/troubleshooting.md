@@ -44,7 +44,7 @@ Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`
 
 ## 22 Google login does not work
 
-Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication.
+Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace may not work.
 
 ## 23 Links don't open in a patched app
 
@@ -58,7 +58,7 @@ This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work P
 
 ## 35 SponsorBlock does not work
 
-The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
+The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock and try again later.
 
 ## 40 Patched app does not work with Android Auto
 
