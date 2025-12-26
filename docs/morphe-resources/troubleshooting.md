@@ -30,7 +30,7 @@ This issue can happen after making changes to your Google account. Uninstall the
 
 ## 18 YouTube Watch history is not being saved
 
-If you use a system ad-blocker, then whitelist `s.youtube.com`. Otherwise check your YouTube/Google account permissions and ensure your account watch history is enabled.
+If you use a system ad-blocker, then whitelist `s.youtube.com`. Otherwise verify watch history works with unpatched YouTube, and check your YouTube/Google account permissions and ensure your account watch history is enabled.
 
 ## 19 The first Short opened has a delay before playback starts
 
@@ -62,7 +62,7 @@ The servers of SponsorBlock are likely having issues right now. Review the [curr
 
 ## 40 Patched app does not work with Android Auto
 
-Enable [Android Auto developer mode](https://developer.android.com/training/cars/testing#developer-mode), then enable "Unknown sources" in the Android Auto developer menu.
+See [here](questions.md#14-how-do-i-add-youtube-music-to-android-auto)
 
 ## 50 YouTube or YouTube Music playback does not work
 

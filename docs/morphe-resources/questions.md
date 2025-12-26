@@ -2,23 +2,23 @@
 
 ## 1. What is Morphe?
 
-Morphe is a patcher for Android apps. You can use it to patch apps and have extra features and customizability. Currently, Morphe has patches for YouTube and YouTube Music.
+Morphe is a patcher for Android apps. It can patch apps and add extra features and customization.
 
-## 2. How to get Morphe?
+## 2. What apps can Morphe patch?
 
-[Download Morphe](https://morphe.software/download) and follow the prompts to patch your app. Alternatively, you can follow the [Morphe CLI documentation](https://github.com/MorpheApp/morphe-cli/tree/main/docs) to use Morphe CLI.
+You can patch any app you want, as long as you want YouTube or YouTube Music. We're constantly working on expanding support to more apps.
 
-## 3. Is Morphe safe?
+## 3. How to get Morphe?
+
+[Download Morphe](https://morphe.software/download) and follow the prompts to patch your app. Alternatively, you can follow the [Morphe CLI documentation](https://github.com/MorpheApp/morphe-cli/tree/main/docs) to use Morphe CLI to patch using a computer.
+
+## 4. Is Morphe safe?
 
 As safe as modifying obfuscated bytecode can be. All source code for Morphe is open-source and free for anyone to inspect. Our community actively reviews and contributes to the codebase.
 
-## 4. Will Morphe brick my phone?
+## 5. Will Morphe brick my phone?
 
 Only if your phone decides to brick itself. Otherwise your device will be fine. Morphe only modifies app packages and doesn't touch system files.
-
-## 5. What apps can Morphe patch?
-
-You can patch any app you want, as long as you want YouTube or YouTube Music. We're constantly working on expanding support to more apps.
 
 ## 6. Can I customize apps to my preference?
 
@@ -30,11 +30,11 @@ Morphe is a patcher for Android apps. Android is very different from iOS so it i
 
 ## 8. Can I patch the latest YouTube version? (Can I patch newer than the recommended version?)
 
-Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest YouTube with Morphe. If you don't like to tinker or repatch often, then always patch the version of YouTube recommended by Morphe.
+Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest YouTube with Morphe. If you do not like to tinker with software or repatch often, then always patch the version of YouTube recommended by Morphe.
 
-Be aware that even if there are no unidentified bugs or issues with patching the latest YouTube, it will be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased work in progress features.
+Be aware that even if there are no unidentified bugs or issues with patching the latest YouTube, it may be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased YouTube work in progress features.
 
-If Morphe Manager fails to patch the latest YouTube, or you find patch bugs present in the latest YouTube that are _not_ present in the recommended YouTube, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches) repo. (Be sure to search for duplicate issues before creating a new issue.)
+If Morphe Manager fails to patch the latest YouTube, or you find patch bugs present in the latest YouTube that are _not_ present in the recommended YouTube, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue) repo (Be sure to search for duplicate issues before creating a new issues).
 
 ## 9. Where to get (full) APKs?
 
@@ -70,20 +70,22 @@ To restore your settings, paste your settings into the same `Import / Export` te
 2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`.
 3. Return to the previous page and enable all of the Supported web addresses.
 
-## 14. How do I add YouTube Music to Android Auto?
+## 14. How do I use YouTube Music with Android Auto?
 
-1. Go to the Android Auto settings on your device.
+1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
 2. Scroll down to `Version and permission info`.
 3. Tap on it 10 times to enter developer mode.
 4. Tap the 3 dots in the upper-right corner of your screen and open the Developer settings.
 5. Scroll down and enable `Unknown sources`.
+
+Be aware that most YT Music Android Auto features require a YouTube Premium subscription.
 
 ## 15. Capture logs 
 
 1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
 2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
 3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
-4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data.  Crash logs can only be collected using a computer and ADB.
+4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data. Crash logs can only be collected using a computer and ADB.
 
 ## 16. How can I help?
 
@@ -102,4 +104,4 @@ Morphe is not affiliated with ReVanced. Morphe was created by a team of former R
 
 ## 19. What is Morphe's privacy policy?
 
-The website uses [Umami](https://umami.is) for analytics: no cookies, no personal data, nothing sold, and nothing shared. Morphe does not add analytics or data collection to any patched apps.
+The [website](https://morphe.software) uses [Umami](https://umami.is) for analytics: no cookies, no personal data, nothing sold, and nothing shared. Morphe does not add analytics or data collection to any patched apps.
