@@ -6,7 +6,7 @@ Morphe is a patcher for Android apps. It can patch apps and add extra features a
 
 ## 2. What apps can Morphe patch?
 
-You can patch any app you want, as long as you want YouTube or YouTube Music. We're constantly working on expanding support to more apps.
+You can patch any app you want, as long as you want YouTube or YT Music. We're constantly working on expanding support to more apps.
 
 ## 3. How to get Morphe?
 
@@ -70,7 +70,7 @@ To restore your settings, paste your settings into the same `Import / Export` te
 2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`.
 3. Return to the previous page and enable all of the Supported web addresses.
 
-## 14. How do I use YouTube Music with Android Auto?
+## 14. How do I use YT Music with Android Auto?
 
 1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
 2. Scroll down to `Version and permission info`.

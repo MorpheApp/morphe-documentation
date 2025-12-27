@@ -64,7 +64,7 @@ The servers of SponsorBlock are likely having issues right now. Review the [curr
 
 See [here](questions.md#14-how-do-i-add-youtube-music-to-android-auto)
 
-## 50 YouTube or YouTube Music playback does not work
+## 50 YouTube or YT Music playback does not work
 
 First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](https://github.com/MorpheApp/morphe-documentation/blob/main/docs/morphe-resources/questions.md#14-how-to-update-patched-apps) for additional information on updating.
 
