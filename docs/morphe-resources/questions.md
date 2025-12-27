@@ -56,7 +56,7 @@ You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com
 
 If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert an `apkm`/`xapk` of your device architecture to a regular `apk` for use with Morphe Manager.
 
-## 24. I found a random website that offers YouTube APK's patched with Morphe. Is this safe to use? 
+## 24. I found a random website that offers YouTube APK's patched with Morphe. Are those safe to use? 
 
 What you found is a "pre-patched" apk that was patched by someone else.
 
