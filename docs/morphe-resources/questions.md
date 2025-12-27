@@ -64,7 +64,14 @@ To restore your settings, paste your settings into the same `Import / Export` te
 
 ## 13. How can I make links open in a patched app?
 
-(If you are using MIUI, you may need to use the `Manage applications` settings with the [Hidden Settings for MIUI](https://play.google.com/store/apps/details?id=com.ceyhan.sets) app in order to follow these steps.)
+> [!NOTE]
+>  <details>
+>  <summary><strong>Information for MIUI users:</strong></summary>
+>  <br>
+>
+> If you are using MIUI, you may need to use the `Manage applications` settings within the [Hidden Settings for MIUI](https://play.google.com/store/apps/details?id=com.ceyhan.sets) app in order to follow the steps below. 
+>
+>  </details>
 
 1. If the unpatched version of the app is installed, open its App info and disable `Set as default/Open by default > Open supported links`.
 2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`.
