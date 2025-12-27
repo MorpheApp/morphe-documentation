@@ -58,7 +58,7 @@ If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSpli
 
 ## 24. I found a random website that offers YouTube APK's patched with Morphe. Are those safe to use? 
 
-What you found is a "pre-patched" apk that was patched by someone else.
+What you found is a "pre-patched" apk patched by someone else.
 
 Since there's no way to know if the APK was maliciously altered by someone else,
 for the safety of your device and your online accounts **you should not use pre-patched APKs**.
