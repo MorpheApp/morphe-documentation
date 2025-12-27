@@ -28,31 +28,39 @@ Yes, but don't blame Morphe if your app becomes too customized for you to handle
 
 Morphe is a patcher for Android apps. Android is very different from iOS so it is not available on iOS. If your TV runs Android, it may be possible to use Morphe.
 
-## 8. Can I patch the latest YouTube version? (Can I patch newer than the recommended version?)
+## 20. Can I patch the latest YouTube version? (Can I patch newer than the recommended version?)
 
-Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest YouTube with Morphe. If you do not like to tinker with software or repatch often, then always patch the version of YouTube recommended by Morphe.
+Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest YouTube with Morphe. If you do not like to experiment with software or repatch often, then always patch the version of YouTube recommended by Morphe.
 
 Be aware that even if there are no unidentified bugs or issues with patching the latest YouTube, it may be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased YouTube work-in-progress features.
 
 If Morphe Manager fails to patch the latest YouTube, or you find patch bugs present in the latest YouTube that are _not_ present in the recommended YouTube, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue) repo (Be sure to search for duplicate issues before creating a new issue).
 
-## 9. Where to get (full) APKs?
+## 21. What if I want to use an older version of YouTube?
 
-You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com/) or [APKPure](https://apkpure.net/). An APK ends with the extension `.apk`.
+Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
+- YouTube: `20.14.43`
+- YT Music: `7.29.52`
 
-If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert an `apkm`/`xapk` of your device architecture to a regular `apk` for use with Morphe Manager.
+But always ensure you have the latest patches, even when patching older app versions.
 
-## 10. Where to get microG GmsCore?
-
-If microG is required for your patched app, you will be directed to the correct [microG download page](https://morphe.software/microg) upon opening the app.
-
-## 11. How to update patched apps?
+## 22. How to update patched apps?
 
 To update a patched app, you need to patch and install the app again. You do not need to uninstall your existing patched app to upgrade the patched app.
 
 Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Check the `Settings > Morphe > About` screen to see if your patches are outdated.
 
-## 12. How do I backup my YouTube Morphe settings?
+## 23. Where to get (full) APKs?
+
+You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com/) or [APKPure](https://apkpure.net/). An APK ends with the extension `.apk`.
+
+If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert an `apkm`/`xapk` of your device architecture to a regular `apk` for use with Morphe Manager.
+
+## 30. Where to get microG GmsCore?
+
+If microG is required for your patched app, you will be directed to the correct [microG download page](https://morphe.software/microg) upon opening the app.
+
+## 32. How do I backup my YouTube Morphe settings?
 
 Morphe uses a text configuration for personalized settings which can be copied and pasted.
 
@@ -62,7 +70,7 @@ Press the copy button to copy your settings to the clipboard. Paste your setting
 
 To restore your settings, paste your settings into the same `Import / Export` textbox and press `Import`.
 
-## 13. How can I make links open in a patched app?
+## 33. How can I make links open in a patched app?
 
 > [!NOTE]
 >  <details>
@@ -77,7 +85,7 @@ To restore your settings, paste your settings into the same `Import / Export` te
 2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`.
 3. Return to the previous page and enable all of the Supported web addresses.
 
-## 14. How do I use YT Music with Android Auto?
+## 34. How do I use YT Music with Android Auto?
 
 1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
 2. Scroll down to `Version and permission info`.
@@ -87,28 +95,28 @@ To restore your settings, paste your settings into the same `Import / Export` te
 
 Be aware that most YT Music Android Auto features require a YouTube Premium subscription.
 
-## 15. Capture logs 
+## 40. Capture logs 
 
 1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
 2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
 3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
 4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data. Crash logs can only be collected using a computer and ADB.
 
-## 16. How can I help?
+## 50. How can I help?
 
 Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://github.com/MorpheApp) and contribute to Morphe by creating an issue or pull request.
 You can also help with translations on [Crowdin](https://translate.morphe.software).
 
 Additionally, [financial donations](https://morphe.software/donate) are always welcome.
 
-## 17. Why the name Morphe?
+## 51. Why the name Morphe?
 
 Because "Android App Modification And Transformation Tool" (AAMATT) is not very catchy. And because Morphe implies it morphs your apps into something better.
 
-## 18. Is Morphe affiliated with ReVanced?
+## 52. Is Morphe affiliated with ReVanced?
 
 Morphe is not affiliated with ReVanced. Morphe was created by a team of former ReVanced developers and contributors.
 
-## 19. What is Morphe's privacy policy?
+## 52. What is Morphe's privacy policy?
 
 The [website](https://morphe.software) uses [Umami](https://umami.is) for analytics: no cookies, no personal data, nothing sold, and nothing shared. Morphe does not add analytics or data collection to any patched apps.
