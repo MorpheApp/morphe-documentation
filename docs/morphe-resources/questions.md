@@ -56,6 +56,15 @@ You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com
 
 If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert an `apkm`/`xapk` of your device architecture to a regular `apk` for use with Morphe Manager.
 
+## 24. I found a random website that offers YouTube APK's patched with Morphe. Is this safe to use? 
+
+What you found is a "pre-patched" apk that was patched by someone else.
+
+Since there's no way to know if the APK was maliciously altered by someone else,
+for the safety of your device and your online accounts **you should not use pre-patched APKs**.
+
+The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or to patch using your computer and [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs). 
+
 ## 30. Where to get microG GmsCore?
 
 If microG is required for your patched app, you will be directed to the correct [microG download page](https://morphe.software/microg) upon opening the app.
