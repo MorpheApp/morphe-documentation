@@ -63,7 +63,7 @@ What you found is a "pre-patched" apk that was patched by someone else.
 Since there's no way to know if the APK was maliciously altered by someone else,
 for the safety of your device and your online accounts **you should not use pre-patched APKs**.
 
-The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or to patch using your computer and [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs). 
+The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or on your computer using [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs). 
 
 ## 30. Where to get microG GmsCore?
 
