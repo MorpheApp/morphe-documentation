@@ -5,6 +5,7 @@ Collection of all Morphe documentation.
 &nbsp;
 ## 📖 Table of contents
 
+- [Basic patching guide](docs/morphe-resources/guide.md)
 - [Frequently asked questions](docs/morphe-resources/questions.md)
 - [Troubleshooting](docs/morphe-resources/troubleshooting.md)
 
