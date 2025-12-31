@@ -114,7 +114,7 @@ Be aware that most YT Music Android Auto features require a YouTube Premium subs
 ## 50. How can I help?
 
 Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://github.com/MorpheApp) and contribute to Morphe by creating an issue or pull request.
-You can also help with translations on [Crowdin](https://translate.morphe.software).
+You can also help with translations on [Crowdin](https://morphe.software/translate).
 
 Additionally, [financial donations](https://morphe.software/donate) are always welcome.
 
