@@ -10,3 +10,6 @@ Documentation to start working with Morphe.
 - [👨‍💻 Setup a development environment for Morphe](1_setup.md)
 - [🧩 How to create fingerprints and patches](https://github.com/MorpheApp/morphe-patcher/blob/main/docs/README.md)
 
+
+## Other
+- [🚚 Migrating your ReVanced patches to Morphe](https://github.com/MorpheApp/morphe-patcher/issues/22)
