@@ -56,13 +56,13 @@ This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work P
 
 Follow [this](questions.md#33-how-can-i-make-links-open-in-a-patched-app).
 
+## 34. Patched app does not work with Android Auto
+
+See [here](questions.md#34-how-do-i-use-yt-music-with-android-auto)
+
 ## 35. SponsorBlock does not work
 
 This likely means that the SponsorBlock servers are having issues. You can check the server status [here](https://status.sponsor.ajay.app/) and try again later.
-
-## 40. Patched app does not work with Android Auto
-
-See [here](questions.md#14-how-do-i-add-youtube-music-to-android-auto)
 
 ## 50. YouTube or YT Music playback does not work
 
