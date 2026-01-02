@@ -65,6 +65,14 @@ for the safety of your device and your online accounts **you should not use pre-
 
 The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or on your computer using [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs). 
 
+## 25. How do I patch Morphe with root?
+
+The simplest is to change to root mount installer:
+`Settings > Advance mode > Advanced > Primary installer > Root mount installer`
+Then `return to Morphe home`, select your app, and follow the instructions.
+
+Note that after download the original APK you will need to install it before continuing with root patching.
+
 ## 30. Where to get microG GmsCore?
 
 If microG is required for your patched app, you will be directed to the correct [microG download page](https://morphe.software/microg) upon opening the app.
