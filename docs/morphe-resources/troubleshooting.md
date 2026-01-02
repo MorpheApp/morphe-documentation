@@ -46,15 +46,15 @@ Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`.
 
 Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace may not work.
 
-## 23. Links don't open in a patched app
-
-Follow [this](questions.md#13-how-can-i-make-links-open-in-a-patched-app).
-
 ## 30. Installation is blocked due to conflicting with an existing installation
 
 This implies that you must remove the previous installation to solve the conflict.
 
 This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc). If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
+
+## 33. Links don't open in a patched app
+
+Follow [this](questions.md#33-how-can-i-make-links-open-in-a-patched-app).
 
 ## 35. SponsorBlock does not work
 
