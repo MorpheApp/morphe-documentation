@@ -42,6 +42,13 @@ The only way to remove this delay is to disable `Settings > Morphe > Return YouT
 
 Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`.
 
+## 21. YouTube now looks different and I want the old UI.
+
+Enable: `Settings > Morphe > General > Spoof app version`
+
+and optionally pick a spoof version:
+`Settings > Morphe > General > Spoof app target`
+
 ## 22. Google login does not work
 
 Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace may not work.
