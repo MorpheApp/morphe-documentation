@@ -42,7 +42,7 @@ The only way to remove this delay is to disable `Settings > Morphe > Return YouT
 
 Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`.
 
-## 21. YouTube now looks different and I want the old UI.
+## 21. YouTube now looks different and I want the old UI
 
 Enable: `Settings > Morphe > General > Spoof app version`
 
