@@ -28,6 +28,11 @@ A YouTube account is required to play most children's videos. Ensure you are log
 
 This issue can happen after making changes to your Google account. Uninstall and reinstall [microG](https://morphe.software/microg).
 
+## 16. YouTube is showing the player overlay buttons all the time
+
+Verify you did not enable the stock YouTube accessibility feature:
+`Settings > Accessibility > Accessibility player > Off`
+
 ## 18. YouTube Watch history is not being saved
 
 If you use a system ad-blocker, then whitelist `s.youtube.com`. Otherwise verify watch history works with unpatched YouTube, and check your YouTube/Google account permissions and ensure your account watch history is enabled.
