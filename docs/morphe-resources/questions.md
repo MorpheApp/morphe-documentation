@@ -50,12 +50,6 @@ To update a patched app, you need to patch and install the app again. You do not
 
 Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Check the `Settings > Morphe > About` screen to see if your patches are outdated.
 
-## 23. Where to get (full) APKs?
-
-You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com/) or [APKPure](https://apkpure.net/). An APK ends with the extension `.apk`.
-
-If only split apks are available (`apkm` or `xapk` files), a tool like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert an `apkm`/`xapk` of your device architecture to a regular `apk` for use with Morphe Manager.
-
 ## 24. I found a random website that offers YouTube APK's patched with Morphe. Are those safe to use? 
 
 What you found is a "pre-patched" APK patched by someone else.
