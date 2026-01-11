@@ -64,6 +64,10 @@ This implies that you must remove the previous installation to solve the conflic
 
 This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc). If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
 
+## 32. YouTube push notifications do not work
+
+If you recently uninstalled/reinstalled MicroG, and did not also uninstall/reinstall patched YouTube, then you may need to clear the YouTube app data for push notifications to work again.
+
 ## 33. Links don't open in a patched app
 
 Follow [this](questions.md#33-how-can-i-make-links-open-in-a-patched-app).
