@@ -4,14 +4,20 @@ A certain development environment is suggested to allow for streamlined developm
 
 ## 🚀 Get started
 
-1. **Clone repositories**
+2. **Fork patches template repository**
+https://github.com/morpheapp/morphe-patches-template
+Read the readme notes in https://github.com/morpheapp/morphe-patches-template for additional instructions.
+
+1. **Clone your forked patches template repository, and CLI required to patch using the console**
+
+    Replace `MyGitHubUserAccount` with your GitHub username.
 
     ```bash
     mkdir morphe
     cd morphe
    
     git clone -b dev https://github.com/MorpheApp/morphe-cli
-    git clone -b dev https://github.com/MorpheApp/morphe-patches
+    git clone -b dev https://github.com/MyGitHubUserAccount/morphe-patches-template
     ```
 
 2. **Build**
@@ -23,7 +29,7 @@ A certain development environment is suggested to allow for streamlined developm
     ./gradlew build
     cd ..
    
-    cd morphe-paches
+    cd morphe-paches-template
     ./gradlew buildAndroid
     cd ..
     ```
@@ -50,13 +56,13 @@ cd morphe-cli
 ./gradlew build
 cd ..
 
-cd morphe-patches
+cd morphe-patches-template
 rm patches/build/libs/patches*.mpp
 ./gradlew buildAndroid
 cd..
 
 # replace $1 with your input apk if not using a bash script
-java -Xms152m -jar morphe-cli/build/libs/morphe-cli*-all.jar patch --patches patches/build/libs/patches*.mpp --out morphe.apk $1 --install
+java -Xms152m -jar morphe-cli/build/libs/morphe-cli*-all.jar patch --patches morphe-patches-template/build/libs/patches*.mpp --out morphe.apk $1 --install
 ```
 
 Then run using: `./patch input.apk` where `input.apk` is the unmodified apk you are patching.
@@ -97,7 +103,7 @@ Follow these steps to configure your development environment for the `morphe-cli
 
         ```sh
         patch
-        --patches morphe-patches\patches\build\libs\patches-<version>.mpp
+        --patches morphe-patches-template\patches\build\libs\patches-<version>.mpp
         binaries\some.apk
         --install # Install the patched APK to a device connected via ADB after patching
         ```
@@ -114,7 +120,7 @@ Follow these steps to configure your development environment for the `morphe-cli
         2. Choose the `morphe-patches:patches` project and add the `build` task
 
 > [!WARNING]
-> The MPP file names in `morphe-patches` change with each release.  
+> The MPP file names in `morphe-patches-template` change with each release.  
 > **Ensure you update the path to the patches in the run configuration program arguments whenever you pull new commits.**
 
 ### 🥼 Working on `morphe-patcher` and `morphe-library` (Extremely optional)
@@ -159,7 +165,7 @@ Now that you have set up your development environment, verify that everything wo
 - **Run configuration fails**: Check the program arguments and working directory in the run configuration. Ensure that the paths are correct and up to date with the latest changes in the repositories
 - **Breakpoints are not hit**: Ensure that you are running the project in debug mode and that the paths are correct in the run configuration
 - **Dependencies are not resolved**: Make sure, the dependencies are published to the local Maven repository
-- **Changes in projects are not reflected**: Ensure, that after making changes in the projects, the `morphe-patches` project is built, and the run configuration is updated with the latest path to the patches file.
+- **Changes in projects are not reflected**: Ensure, that after making changes in the projects, the `morphe-patches-template` project is built, and the run configuration is updated with the latest path to the patches file.
 
 ## 📜 Project specific documentations
 
