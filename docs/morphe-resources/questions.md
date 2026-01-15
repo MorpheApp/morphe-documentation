@@ -130,4 +130,4 @@ Morphe is not affiliated with ReVanced. Morphe was created by a team of former R
 
 ## 53. What is Morphe's privacy policy?
 
-The [website](https://morphe.software) uses [Umami](https://umami.is) for analytics: no cookies, no personal data, nothing sold, and nothing shared. Morphe does not add analytics or data collection to any patched apps.
+The [website](https://morphe.software) uses [Umami](https://umami.is) and Google Analytics 4: No cookies, no advertising, no profiling, and no data is sold or shared. Morphe does not add analytics or data collection to any patched apps.
