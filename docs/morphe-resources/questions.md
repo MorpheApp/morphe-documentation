@@ -6,7 +6,7 @@ Morphe is a patcher for Android apps. It can patch apps and add extra features a
 
 ## 2. What apps can Morphe patch?
 
-You can patch any app you want, as long as you want YouTube or YT Music. We're constantly working on expanding support to more apps.
+You can patch any app you want, as long as you want YouTube, YT Music, or Reddit. We're constantly working on expanding support to more apps.
 
 ## 3. How to get Morphe?
 
@@ -41,6 +41,7 @@ If Morphe Manager fails to patch the latest YouTube, or you find patch bugs pres
 Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
 - YouTube: `20.14.43`
 - YT Music: `7.29.52`
+- Reddit: `2025.40.0`
 
 But always ensure you have the latest patches, even when patching older app versions.
 
