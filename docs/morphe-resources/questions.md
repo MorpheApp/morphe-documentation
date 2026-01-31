@@ -62,9 +62,8 @@ The official and only safe way to use Morphe is to patch yourself on your phone 
 
 ## 25. How do I patch Morphe with root?
 
-The simplest is to change to root mount installer:
-`Settings > Expert mode > Advanced > Primary installer > Root mount installer`
-Then `return to Morphe home`, select your app, and follow the instructions.
+Change: 
+`Settings > System > Installer > Root mount installer`
 
 Note that after download the original APK you will need to install it before continuing with root patching.
 
