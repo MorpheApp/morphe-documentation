@@ -4,9 +4,9 @@ This is a collection of common errors and fixes.
 
 ## 4. YouTube Audio track menu is missing
 
-Change: `Settings > Morphe > Miscellaneous > Spoof video streams > Default client` to `Android No SDK`
+Ensure the about screen says patches version 1.10.0 or higher: `Settings > Morphe > About` 
 
-If the audio track menu is still not available or playback buffers at 1 minute, then currently there is no solution.
+Then change: `Settings > Morphe > Miscellaneous > Spoof video streams > Default client` to `TV Simply`
 
 ## 5. Videos play with auto-dubbed audio translations
 
@@ -18,7 +18,7 @@ If the audio is still auto-dubbed and "Stats for nerds" always shows `Android St
 
 ## 7. Stable volume is not available
 
-Stable volume is not available when using most clients for spoofing the video streams. (See `Settings > Morphe > Miscellaneous > Spoof video streams > Default client`.)
+Change the spoof client to either `visionOS` or `TV Simply`, see item 4 above.
 
 ## 8. Children/music videos do not play and an error is shown
 
