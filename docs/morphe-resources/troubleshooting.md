@@ -54,9 +54,11 @@ Enable: `Settings > Morphe > General > Spoof app version`
 and optionally pick a spoof version:
 `Settings > Morphe > General > Spoof app target`
 
-## 22. Google login does not work
+## 22. MicroG Google login does not work
 
 Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace may not work.
+
+Some devices may require temporarily enabling the "Appear on top" MicroG overlay permission for login to work.
 
 ## 30. Installation is blocked due to conflicting with an existing installation
 
