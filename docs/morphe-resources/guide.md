@@ -15,6 +15,6 @@ Morphe Manager has two modes: [Simplified mode](guide.md#simplified-mode) is eas
 2. Follow the prompts to patch an APK of that app.
 3. Install the patched APK when it's ready. You can also hit the save button to export the APK. That's all!
 
-## Advanced mode
+## Expert mode
 
 Instructions coming soon...
