@@ -4,9 +4,9 @@ This is a collection of common errors and fixes.
 
 ## 4. YouTube Audio track menu is missing
 
-Ensure the about screen says patches version 1.10.0 or higher: `Settings > Morphe > About` 
+Ensure `Settings > Morphe > About` says "You are using the latest patches"
 
-Then change: `Settings > Morphe > Miscellaneous > Spoof video streams > Default client` to `TV Simply`
+Then change: `Settings > Morphe > Miscellaneous > Spoof video streams > Default client` to `TV`
 
 ## 5. Videos play with auto-dubbed audio translations
 
