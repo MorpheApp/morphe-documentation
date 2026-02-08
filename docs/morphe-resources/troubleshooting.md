@@ -6,7 +6,7 @@ This is a collection of common errors and fixes.
 
 Ensure `Settings > Morphe > About` says "You are using the latest patches"
 
-Then change: `Settings > Morphe > Miscellaneous > Spoof video streams > Default client` to `TV`
+Then change to `TV` in : `Settings > Morphe > Miscellaneous > Spoof video streams > Default client`
 
 ## 5. Videos play with auto-dubbed audio translations
 
