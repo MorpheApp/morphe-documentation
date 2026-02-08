@@ -56,9 +56,11 @@ and optionally pick a spoof version:
 
 ## 22. MicroG Google login does not work
 
-Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace may not work.
+Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace, or family managed accounts may not work.
 
 Some devices may require temporarily enabling the "Appear on top" MicroG overlay permission for login to work.
+
+Some devices may require using the "Huawei login" button, even if not using a Huawei device.
 
 ## 30. Installation is blocked due to conflicting with an existing installation
 
