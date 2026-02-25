@@ -39,9 +39,9 @@ If Morphe Manager fails to patch the latest YouTube, or you find patch bugs pres
 ## 21. What if I want to use an older version of YouTube?
 
 Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
-- YouTube: `20.14.43`
+- YouTube: `20.21.37`
 - YT Music: `7.29.52`
-- Reddit: `2025.40.0`
+- Reddit: `2025.48.0`
 
 But always ensure you have the latest patches, even when patching older app versions.
 
