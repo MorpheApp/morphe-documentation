@@ -28,13 +28,13 @@ Yes, but don't blame Morphe if your app becomes too customized for you to handle
 
 Morphe is a patcher for Android apps. Android is very different from iOS so it is not available on iOS. If your TV runs Android, it may be possible to use Morphe.
 
-## 20. Can I patch the latest YouTube version? (Can I patch newer than the recommended version?)
+## 20. Can I patch the latest versions of apps? (Can I patch newer than the recommended version?)
 
-Morphe tries to support the very latest versions of YouTube. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest YouTube with Morphe. If you do not like to experiment with software or repatch often, then always patch the version of YouTube recommended by Morphe.
+Morphe tries to support the very latest versions of YouTube and Reddit. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest releases with Morphe. If you do not like to experiment with software or repatch often, then always patch the version recommended by Morphe.
 
-Be aware that even if there are no unidentified bugs or issues with patching the latest YouTube, it may be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased YouTube work-in-progress features.
+Be aware that even if there are no unidentified bugs or issues with patching the latest, it may be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased work-in-progress features.
 
-If Morphe Manager fails to patch the latest YouTube, or you find patch bugs present in the latest YouTube that are _not_ present in the recommended YouTube, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue) repo (Be sure to search for duplicate issues before creating a new issue).
+If Morphe Manager fails to patch the latest version of YouTube or Reddit, or you find patch bugs present in the latest that are _not_ present in the recommended version, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue) repo (Be sure to search for duplicate issues before creating a new issue).
 
 ## 21. What if I want to use an older version of YouTube?
 
