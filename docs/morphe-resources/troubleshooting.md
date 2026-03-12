@@ -54,6 +54,8 @@ Enable: `Settings > Morphe > General > Spoof app version`
 and optionally pick a spoof version:
 `Settings > Morphe > General > Spoof app target`
 
+If you still don't have the old UI, then [patch an older version of YouTube](questions.md#21-what-if-i-want-to-use-an-older-version-of-youtube).
+
 ## 22. MicroG Google login does not work
 
 Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace, or family managed accounts may not work.
