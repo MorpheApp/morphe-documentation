@@ -97,6 +97,17 @@ To restore your settings, paste your settings into the same `Import / Export` te
 
 If you have related apps that also open the same weblinks (such as the "YT Create" app by YouTube), then you may need to disable links in those apps as well.
 
+Some devices may require resetting "link verification" using a connected computer and ADB:
+
+`adb shell pm set-app-links --package app.morphe.android.youtube 0 all`
+
+or:
+
+`adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true www.youtube.com`
+
+"adb shell pm set-app-links --package app.morphe.android.youtube 0 all"
+ https://developer.android.com/training/app-links/verify-applinks#:~:text=adb%20shell%20pm%20set%2Dapp%2Dlinks%20%2D%2Dpackage%20PACKAGE_NAME%200%20all
+
 ## 34. How do I use YT Music with Android Auto?
 
 1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
