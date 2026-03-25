@@ -104,8 +104,6 @@ Some devices may require resetting "link verification" using a connected compute
 or:
 
 `adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true www.youtube.com`
-
-"adb shell pm set-app-links --package app.morphe.android.youtube 0 all"
  https://developer.android.com/training/app-links/verify-applinks#:~:text=adb%20shell%20pm%20set%2Dapp%2Dlinks%20%2D%2Dpackage%20PACKAGE_NAME%200%20all
 
 ## 34. How do I use YT Music with Android Auto?
