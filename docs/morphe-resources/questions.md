@@ -93,8 +93,9 @@ To restore your settings, paste your settings into the same `Import / Export` te
 >  </details>
 
 1. If the unpatched version of the app is installed, open its App info and disable `Set as default/Open by default > Open supported links`.
-2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`.
-3. Return to the previous page and enable all of the Supported web addresses.
+2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`, then enable all url links shown.
+
+If you have related apps that also open the same weblinks (such as the "YT Create" app by YouTube), then you may need to disable links in those apps as well.
 
 ## 34. How do I use YT Music with Android Auto?
 
