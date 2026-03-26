@@ -127,7 +127,7 @@ Follow these steps to configure your development environment for the `morphe-cli
 
 1. **Import as modules**: Import `morphe-patcher` and `morphe-library` as modules in the `morphe-cli` project
 
-2**Configure module dependencies**:
+2. **Configure module dependencies**:
 
    - Go to **Project Structure**
    - Select the `main` module of your project
