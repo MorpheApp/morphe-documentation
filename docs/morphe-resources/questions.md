@@ -97,7 +97,7 @@ To restore your settings, paste your settings into the same `Import / Export` te
 
 If you have related apps that also open the same weblinks (such as the "YT Create" app by YouTube), then you may need to disable links in those apps as well.
 
-Some devices may require resetting "link verification" using a connected computer and ADB:
+Some devices may require resetting "link verification" using a connected computer and ADB. Commands listed below are for YouTube, for other apps update the package name and web domain.
 
 `adb shell pm set-app-links --package app.morphe.android.youtube 0 all`
 
