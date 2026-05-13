@@ -29,7 +29,7 @@ Read the readme notes in https://github.com/morpheapp/morphe-patches-template fo
     ./gradlew build
     cd ..
    
-    cd morphe-paches-template
+    cd morphe-patches-template
     ./gradlew buildAndroid
     cd ..
     ```
