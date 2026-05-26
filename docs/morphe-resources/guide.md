@@ -2,7 +2,7 @@
 
 This page will demonstrate how to patch apps using Morphe Manager. 
 
-Morphe Manager has two modes: [Simplified mode](guide.md#simplified-mode) is easy enough for your grandmother to use, while [advanced mode](guide.md#advanced-mode) gives you fine control over Morphe and the patching process, such as allowing you to customize the patch selection.
+Morphe Manager has two modes: [Simplified mode](guide.md#simplified-mode) is easy enough for your grandmother to use, while [expert mode](guide.md#expert-mode) gives you fine control over Morphe and the patching process, such as allowing you to customize the patch selection.
 
 ### Prerequisites
 
