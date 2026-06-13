@@ -120,6 +120,8 @@ adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.
 4. Tap the 3 dots in the upper-right corner of your screen and open the Developer settings.
 5. Scroll down and enable `Unknown sources`.
 
+You may need to update/change to [Morphe MicroG](https://morphe.software/microg) if you are using an old MicroG release.
+
 Be aware that most YT Music Android Auto features require a YouTube Premium subscription.
 
 ## 40. Capture logs 
