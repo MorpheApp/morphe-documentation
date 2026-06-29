@@ -126,8 +126,9 @@ Be aware that most YT Music Android Auto features require a YouTube Premium subs
 
 ## 40. Capture logs 
 
+<!-- For patches it's better to grep with "morphe:" but that doesn't capture Morphe Manager logs -->
 1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
-2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe:\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe:\|AndroidRuntime' > logs.txt`
+2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
 3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
 4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data. Crash logs can only be collected using a computer and ADB.
 
