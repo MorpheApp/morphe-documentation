@@ -37,12 +37,6 @@ Verify you did not enable the stock YouTube accessibility feature:
 
 If you use a system ad-blocker, then whitelist `s.youtube.com`. Otherwise verify watch history works with unpatched YouTube, and check your YouTube/Google account permissions and ensure your account watch history is enabled.
 
-## 19. The first Short opened has a delay before playback starts
-
-Showing Shorts dislikes requires fetching dislikes before the first Short starts playing. This limitation only applies to the first Short opened and does not occur when swiping to other Shorts.
-
-The only way to remove this delay is to disable `Settings > Morphe > Return YouTube Dislike > Show dislikes on Shorts`.
-
 ## 20. YouTube Shorts tab button is missing
 
 Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`.
