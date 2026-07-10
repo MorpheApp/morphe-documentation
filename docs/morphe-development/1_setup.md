@@ -59,10 +59,10 @@ cd ..
 cd morphe-patches-template
 rm patches/build/libs/patches*.mpp
 ./gradlew buildAndroid
-cd..
+cd ..
 
 # replace $1 with your input apk if not using a bash script
-java -Xms152m -jar morphe-cli/build/libs/morphe-cli*-all.jar patch --patches morphe-patches-template/build/libs/patches*.mpp --out morphe.apk $1 --install
+java -Xms152m -jar morphe-cli/build/libs/morphe-cli*-all.jar patch --patches morphe-patches-template/patches/build/libs/patches*.mpp --out morphe.apk $1 --install
 ```
 
 Then run using: `./patch input.apk` where `input.apk` is the unmodified apk you are patching.
