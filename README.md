@@ -11,7 +11,7 @@ Collection of all Morphe documentation.
 
 &nbsp;
 ## Patching with Morphe
-- [💻 Using Morphe CLI](https://github.com/MorpheApp/morphe-cli/blob/main/docs/README.md): Using Morphe CLI with a computer
+- [💻 Using Morphe Desktop](https://github.com/MorpheApp/morphe-desktop/blob/main/docs/README.md): Using Morphe Desktop with a computer
 - [📱 Using Morphe Manager](https://github.com/MorpheApp/morphe-manager): Documentation is coming soon!
 
 &nbsp;

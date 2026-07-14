@@ -8,7 +8,7 @@ A certain development environment is suggested to allow for streamlined developm
 https://github.com/morpheapp/morphe-patches-template
 Read the readme notes in https://github.com/morpheapp/morphe-patches-template for additional instructions.
 
-1. **Clone your forked patches template repository, and CLI required to patch using the console**
+1. **Clone your forked patches template repository, and Desktop required to patch using the console**
 
     Replace `MyGitHubUserAccount` with your GitHub username.
 
@@ -16,7 +16,7 @@ Read the readme notes in https://github.com/morpheapp/morphe-patches-template fo
     mkdir morphe
     cd morphe
    
-    git clone -b dev https://github.com/MorpheApp/morphe-cli
+    git clone -b dev https://github.com/MorpheApp/morphe-desktop
     git clone -b dev https://github.com/MyGitHubUserAccount/morphe-patches-template
     ```
 
@@ -25,7 +25,7 @@ Read the readme notes in https://github.com/morpheapp/morphe-patches-template fo
     To build patches:
 
     ```bash
-    cd morphe-cli
+    cd morphe-desktop
     ./gradlew build
     cd ..
    
@@ -46,13 +46,13 @@ Read the readme notes in https://github.com/morpheapp/morphe-patches-template fo
 > ```
 
 
-## ⌨️ Simple terminal patching with CLI and custom patches
+## ⌨️ Simple terminal patching with Desktop and custom patches
 
 Copy paste the following to terminal, or add all of this to a script file:
 ```bash
 #!/bin/sh
 
-cd morphe-cli
+cd morphe-desktop
 ./gradlew build
 cd ..
 
@@ -62,7 +62,7 @@ rm patches/build/libs/patches*.mpp
 cd ..
 
 # replace $1 with your input apk if not using a bash script
-java -Xms1024m -jar morphe-cli/build/libs/morphe-cli*-all.jar patch --patches morphe-patches-template/patches/build/libs/patches*.mpp --out morphe.apk $1 --install
+java -Xms1024m -jar morphe-desktop/build/libs/morphe-desktop*-all.jar patch --patches morphe-patches-template/patches/build/libs/patches*.mpp --out morphe.apk $1 --install
 ```
 
 Then run using: `./patch input.apk` where `input.apk` is the unmodified apk you are patching.
@@ -73,29 +73,29 @@ Then run using: `./patch input.apk` where `input.apk` is the unmodified apk you 
 ### ⚠️ Warning: Intellij complexity ahead
 If setting up Intellij in this way is to complex for your liking, then consider using the terminal approach described above.
 
-Follow these steps to configure your development environment for the `morphe-cli` project in IntelliJ IDEA:
+Follow these steps to configure your development environment for the `morphe-desktop` project in IntelliJ IDEA:
 
-1. **Open the `morphe-cli` project**:
+1. **Open the `morphe-desktop` project**:
 
-   - Open the `morphe-cli` project in IntelliJ IDEA
+   - Open the `morphe-desktop` project in IntelliJ IDEA
    - Ensure you are using the correct JDK as specified in [💼 Prerequisites](0_prerequisites.md)
 
 2. **Import projects**:
 
-   Import the projects you cloned as modules into the `morphe-cli` project:
+   Import the projects you cloned as modules into the `morphe-desktop` project:
 
    1. Open the **Project Structure** dialog by pressing **Ctrl + Alt + Shift + S**
    2. Navigate to the **Modules** section
-   3. Import each additional project as a module under the `morphe-cli` project
+   3. Import each additional project as a module under the `morphe-desktop` project
 
 3. **Synchronize Gradle projects**:
 
    - Click on the **Sync All Gradle Projects** button in the Gradle tool window
    - Verify that all Gradle projects are imported successfully without errors
 
-4. **Configure the Run Configuration for `morphe-cli`**:
+4. **Configure the Run Configuration for `morphe-desktop`**:
 
-   1. Locate the `app.morphe.cli.command.MainCommandKt` class in the `morphe-cli` project
+   1. Locate the `app.morphe.desktop.command.MainCommandKt` class in the `morphe-desktop` project
    2. Click the green **Play** button next to the `main` function. This will generate a new run configuration
    3. Edit the run configuration as follows:
 
@@ -108,7 +108,7 @@ Follow these steps to configure your development environment for the `morphe-cli
         --install # Install the patched APK to a device connected via ADB after patching
         ```
 
-      - **Working directory**: Set to the parent directory of the `morphe-cli` project:
+      - **Working directory**: Set to the parent directory of the `morphe-desktop` project:
 
         ```sh
         $ProjectFileDir$/..
@@ -125,7 +125,7 @@ Follow these steps to configure your development environment for the `morphe-cli
 
 ### 🥼 Working on `morphe-patcher` and `morphe-library` (Extremely optional)
 
-1. **Import as modules**: Import `morphe-patcher` and `morphe-library` as modules in the `morphe-cli` project
+1. **Import as modules**: Import `morphe-patcher` and `morphe-library` as modules in the `morphe-desktop` project
 
 2. **Configure module dependencies**:
 
@@ -137,17 +137,17 @@ Follow these steps to configure your development environment for the `morphe-cli
 
 6. **Set up local publication**:
 
-   - Add **Before launch** tasks in the `morphe-cli` run configuration
+   - Add **Before launch** tasks in the `morphe-desktop` run configuration
    - Use the `publishToMavenLocal` Gradle task to publish the `morphe-patcher` and `morphe-library` projects to your local Maven repository
 
 ## ✅ Verify your setup
 
 Now that you have set up your development environment, verify that everything works as intended:
 
-1. **Run Morphe CLI**:
+1. **Run Morphe Desktop**:
 
-   - Run the `morphe-cli` project with the run configuration you created
-   - Confirm that the CLI starts and executes the command you specified in the program arguments
+   - Run the `morphe-desktop` project with the run configuration you created
+   - Confirm that the Desktop starts and executes the command you specified in the program arguments
 
 2. **Edit the projects**:
 
@@ -157,7 +157,7 @@ Now that you have set up your development environment, verify that everything wo
 
    - Set a breakpoint in the projects
    - Run the project in debug mode and confirm that the breakpoint is hit
-   - Continue and let Morphe CLI exit
+   - Continue and let Morphe Desktop exit
 
 ## ⚠️ Troubleshoot your development environment
 
@@ -171,5 +171,5 @@ Now that you have set up your development environment, verify that everything wo
 
 To learn more about the individual projects, refer to their respective documentations:
 
-- [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs)
+- [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop/tree/main/docs)
 - [Morphe Patcher](https://github.com/MorpheApp/morphe-patcher/tree/main/docs)

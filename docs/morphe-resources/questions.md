@@ -10,7 +10,7 @@ You can patch any app you want, as long as you want YouTube, YT Music, or Reddit
 
 ## 3. How to get Morphe?
 
-[Download Morphe](https://morphe.software/download) and follow the prompts to patch your app. Alternatively, you can follow the [Morphe CLI documentation](https://github.com/MorpheApp/morphe-cli/tree/main/docs) to use Morphe CLI to patch using a computer.
+[Download Morphe](https://morphe.software) and follow the prompts to patch your app. Alternatively, you can follow the [Morphe Desktop documentation](https://github.com/MorpheApp/morphe-desktop/tree/main/docs) to use Morphe Desktop to patch using a computer.
 
 ## 4. Is Morphe safe?
 
@@ -58,7 +58,7 @@ What you found is a "pre-patched" APK patched by someone else.
 Since there's no way to know if the APK was maliciously altered by someone else,
 for the safety of your device and your online accounts **you should not use pre-patched APKs**.
 
-The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or on your computer using [Morphe CLI](https://github.com/MorpheApp/morphe-cli/tree/main/docs). 
+The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or on your computer using [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop/tree/main/docs). 
 
 ## 25. How do I patch Morphe with root?
 
