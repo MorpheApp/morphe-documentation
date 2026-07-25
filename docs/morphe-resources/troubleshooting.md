@@ -64,6 +64,8 @@ This implies that you must remove the previous installation to solve the conflic
 
 This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc). If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
 
+Patching in root mount mode avoids the conflict entirely, because the patched APK is mounted over the stock app instead of installed, see [Root mount](https://github.com/MorpheApp/morphe-manager/blob/main/docs/installers.md#root-mount-in-detail).
+
 ## 32. YouTube push notifications do not work
 
 If you recently uninstalled/reinstalled MicroG, and did not also uninstall/reinstall patched YouTube, then you may need to clear the YouTube app data for push notifications to work again.
@@ -82,7 +84,7 @@ This likely means that the SponsorBlock servers are having issues. You can check
 
 ## 50. YouTube or YT Music playback does not work
 
-First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](questions.md#11-how-to-update-patched-apps) for additional information on updating.
+First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](questions.md#22-how-to-update-patched-apps) for additional information on updating.
 
 Search for existing issues [here](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue%20state%3Aopen) as all known issues will have an existing issue.
 

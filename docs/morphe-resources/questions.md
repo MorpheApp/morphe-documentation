@@ -49,7 +49,9 @@ But always ensure you have the latest patches, even when patching older app vers
 
 To update a patched app, you need to patch and install the app again. You do not need to uninstall your existing patched app to upgrade the patched app.
 
-Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Check the `Settings > Morphe > About` screen to see if your patches are outdated.
+Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Morphe Manager puts an `Update` badge on the app card when the patches it was built with are outdated. Check the `Settings > Morphe > About` screen inside the patched app to see the same thing from there.
+
+See [Updating a patched app](https://github.com/MorpheApp/morphe-manager/blob/main/docs/updating-patched-apps.md) for the full walkthrough.
 
 ## 24. I found a random website that offers YouTube APK's patched with Morphe. Are those safe to use? 
 
@@ -62,10 +64,11 @@ The official and only safe way to use Morphe is to patch yourself on your phone 
 
 ## 25. How do I patch Morphe with root?
 
-Change: 
-`Settings > System > Installer > Root mount installer`
+On a rooted device Morphe Manager asks how the app should be patched before patching starts, in a `Choose patch mode` dialog. Pick `Root mount mode`.
 
-Note that after download the original APK you will need to install it before continuing with root patching.
+Note that in this mode you need to **install** the original APK after downloading it, because the patched APK is mounted over the stock app.
+
+The matching installer entry is `Settings > System > Installer > Root mount`, and it only applies to apps that were patched in root mount mode. See [Root mount](https://github.com/MorpheApp/morphe-manager/blob/main/docs/installers.md#root-mount-in-detail) for the details, including why branding cannot be changed for mounted installs.
 
 ## 30. Where to get microG GmsCore?
 
@@ -80,6 +83,8 @@ Go to: `Settings > Morphe > Miscellaneous > Import / Export`
 Press the copy button to copy your settings to the clipboard. Paste your settings somewhere safe to save them (Notes app, email message, etc).
 
 To restore your settings, paste your settings into the same `Import / Export` textbox and press `Import`.
+
+This covers the settings inside the patched app. Morphe Manager's own settings, patch selections, and signing keystore are backed up separately, see [Backing up Morphe and your keystore](https://github.com/MorpheApp/morphe-manager/blob/main/docs/backup-and-keystore.md).
 
 ## 33. How can I make links open in a patched app?
 
@@ -131,6 +136,8 @@ Be aware that most YT Music Android Auto features require a YouTube Premium subs
 2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
 3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
 4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data. Crash logs can only be collected using a computer and ADB.
+
+For problems with patching itself rather than with a patched app, export the logs from `Settings > System > Debug` in Morphe Manager, or copy the patcher log straight off the patching screen in Expert mode. See [How patching works and how to tune it](https://github.com/MorpheApp/morphe-manager/blob/main/docs/patching-process.md#when-patching-fails).
 
 ## 50. How can I help?
 
