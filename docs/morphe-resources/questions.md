@@ -40,7 +40,7 @@ If Morphe Manager fails to patch the latest version of YouTube or Reddit, or you
 
 Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
 - YouTube: `20.21.37`
-- YT Music: `7.29.52`
+- YT Music: `9.15.51`
 - Reddit: `2026.04.0`
 
 But always ensure you have the latest patches, even when patching older app versions.
