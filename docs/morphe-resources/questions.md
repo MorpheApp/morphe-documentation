@@ -131,6 +131,21 @@ Be aware that most YT Music Android Auto features require a YouTube Premium subs
 
 ## 40. Capture logs 
 
+### Using Morphe log collector website
+
+1. If using YouTube or YT Music, turn on `Miscellaneous > Debugging > Debug logging`. Do not turn on stack trace or protocol logging unless you are instructed to. If YouTube fails to launch then skip this step.
+2. Enable developer mode on your phone: https://developer.android.com/studio/debug/dev-options
+3. Verify "USB debugging" is enabled in your device Settings > Developer menu
+4. Connect your phone to a computer with a usb cable
+5. Visit https://debug.morphe.software on your computer
+6. Press "Connect device" button on the log website
+7. Approve the developer prompt on your phone
+8. Press "save" button on the website
+
+If logs do not show on the website, unplug your phone and retry again from step 4 thru 8
+
+### Using a computer, usb cable, and terminal console
+
 <!-- For patches it's better to grep with "morphe:" but that doesn't capture Morphe Manager logs -->
 1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
 2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
