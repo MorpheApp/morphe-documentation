@@ -1,174 +1,85 @@
-# Frequently asked questions
+# This guide has moved to [here](troubleshooting_questions.md)
 
 ## 1. What is Morphe?
 
-Morphe is a patcher for Android apps. It can patch apps and add extra features and customization.
+[See here](troubleshooting_questions.md#1-what-is-morphe)
 
 ## 2. What apps can Morphe patch?
 
-You can patch any app you want, as long as you want YouTube, YT Music, or Reddit. We're constantly working on expanding support to more apps.
+[See here](troubleshooting_questions.md#2-what-apps-can-morphe-patch)
 
 ## 3. How to get Morphe?
 
-[Download Morphe](https://morphe.software) and follow the prompts to patch your app. Alternatively, you can follow the [Morphe Desktop documentation](https://github.com/MorpheApp/morphe-desktop/tree/main/docs) to use Morphe Desktop to patch using a computer.
+[See here](troubleshooting_questions.md#3-how-to-get-morphe)
 
 ## 4. Is Morphe safe?
 
-As safe as modifying obfuscated bytecode can be. All source code for Morphe is open-source and free for anyone to inspect. Our community actively reviews and contributes to the codebase.
+[See here](troubleshooting_questions.md#4-is-morphe-safe)
 
 ## 5. Will Morphe brick my phone?
 
-Only if your phone decides to brick itself. Otherwise your device will be fine. Morphe only modifies app packages and doesn't touch system files.
+[See here](troubleshooting_questions.md#5-will-morphe-brick-my-phone)
 
 ## 6. Can I customize apps to my preference?
 
-Yes, but don't blame Morphe if your app becomes too customized for you to handle. It's recommended to customize up to your preference level and no more.
+[See here](troubleshooting_questions.md#6-can-i-customize-apps-to-my-preference)
 
 ## 7. Is Morphe available on iOS or TV?
 
-Morphe is a patcher for Android apps. Android is very different from iOS so it is not available on iOS. If your TV runs Android, it may be possible to use Morphe.
+[See here](troubleshooting_questions.md#7-is-morphe-available-on-ios-or-tv)
 
 ## 20. Can I patch the latest versions of apps? (Can I patch newer than the recommended version?)
 
-Morphe tries to support the very latest versions of YouTube and Reddit. If you like exploring and are willing to accept that some unidentified bugs may exist, then you can try patching the latest releases with Morphe. If you do not like to experiment with software or repatch often, then always patch the version recommended by Morphe.
-
-Be aware that even if there are no unidentified bugs or issues with patching the latest, it may be full of [a/b tests](https://en.wikipedia.org/wiki/A/B_testing) that show up for some users as strange UI layouts and unreleased work-in-progress features.
-
-If Morphe Manager fails to patch the latest version of YouTube or Reddit, or you find patch bugs present in the latest that are _not_ present in the recommended version, then please open an issue in the [GitHub patches](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue) repo (Be sure to search for duplicate issues before creating a new issue).
+[See here](troubleshooting_questions.md#20-can-i-patch-the-latest-versions-of-apps-can-i-patch-newer-than-the-recommended-version)
 
 ## 21. What if I want to use an older version of YouTube?
 
-Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
-- YouTube: `20.21.37`
-- YT Music: `9.15.51`
-- Reddit: `2026.04.0`
-
-But always ensure you have the latest patches, even when patching older app versions.
+[See here](troubleshooting_questions.md#21-what-if-i-want-to-use-an-older-version-of-youtube)
 
 ## 22. How to update patched apps?
 
-To update a patched app, you need to patch and install the app again. You do not need to uninstall your existing patched app to upgrade the patched app.
-
-Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. Morphe Manager puts an `Update` badge on the app card when the patches it was built with are outdated. Check the `Settings > Morphe > About` screen inside the patched app to see the same thing from there.
-
-See [Updating a patched app](https://github.com/MorpheApp/morphe-manager/blob/main/docs/updating-patched-apps.md) for the full walkthrough.
+[See here](troubleshooting_questions.md#22-how-to-update-patched-apps)
 
 ## 24. I found a random website that offers YouTube APK's patched with Morphe. Are those safe to use? 
 
-What you found is a "pre-patched" APK patched by someone else.
-
-Since there's no way to know if the APK was maliciously altered by someone else,
-for the safety of your device and your online accounts **you should not use pre-patched APKs**.
-
-The official and only safe way to use Morphe is to patch yourself on your phone using the [Android Morphe app](https://morphe.software) or on your computer using [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop/tree/main/docs). 
+[See here](troubleshooting_questions.md#24-i-found-a-random-website-that-offers-youtube-apks-patched-with-morphe-are-those-safe-to-use)
 
 ## 25. How do I patch Morphe with root?
 
-On a rooted device Morphe Manager asks how the app should be patched before patching starts, in a `Choose patch mode` dialog. Pick `Root mount mode`.
-
-Note that in this mode you need to **install** the original APK after downloading it, because the patched APK is mounted over the stock app.
-
-The matching installer entry is `Settings > System > Installer > Root mount`, and it only applies to apps that were patched in root mount mode. See [Root mount](https://github.com/MorpheApp/morphe-manager/blob/main/docs/installers.md#root-mount-in-detail) for the details, including why branding cannot be changed for mounted installs.
+[See here](troubleshooting_questions.md#25-how-do-i-patch-morphe-with-root)
 
 ## 30. Where to get microG GmsCore?
 
-If microG is required for your patched app, you will be directed to the correct [microG download page](https://morphe.software/microg) upon opening the app.
+[See here](troubleshooting_questions.md#30-where-to-get-microg-gmscore)
 
 ## 32. How do I backup my YouTube Morphe settings?
 
-Morphe uses a text configuration for personalized settings which can be copied and pasted.
-
-Go to: `Settings > Morphe > Miscellaneous > Import / Export`
-
-Press the copy button to copy your settings to the clipboard. Paste your settings somewhere safe to save them (Notes app, email message, etc).
-
-To restore your settings, paste your settings into the same `Import / Export` textbox and press `Import`.
-
-This covers the settings inside the patched app. Morphe Manager's own settings, patch selections, and signing keystore are backed up separately, see [Backing up Morphe and your keystore](https://github.com/MorpheApp/morphe-manager/blob/main/docs/backup-and-keystore.md).
+[See here](troubleshooting_questions.md#32-how-do-i-backup-my-youtube-morphe-settings)
 
 ## 33. How can I make links open in a patched app?
 
-> [!NOTE]
->  <details>
->  <summary><strong>Information for MIUI users:</strong></summary>
->  <br>
->
-> If you are using MIUI, you may need to use the `Manage applications` settings within the [Hidden Settings for MIUI](https://play.google.com/store/apps/details?id=com.ceyhan.sets) app in order to follow the steps below. 
->
->  </details>
-
-1. If the unpatched version of the app is installed, open its App info and disable `Set as default/Open by default > Open supported links`.
-2. Open the App info of the patched app and enable `Set as default/Open by default > Open supported links`, then enable all url links shown.
-
-If you have related apps that also open the same weblinks (such as the "YT Create" app by YouTube), then you may need to disable links in those apps as well.
-
-Some devices may require manually enabling "link verification" using a connected computer and ADB.
-
-`set-app-links-user-selection --user 0 --package (package name) true (url link)`
-
-Run this command for each of the open with link urls. For YouTube this is:
-```
-adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true youtu.be
-adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true youtube.com
-adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true m.youtube.com
-adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true www.youtube.com
-adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.youtube true studio.youtube.com
-```
-
- https://developer.android.com/training/app-links/verify-applinks#:~:text=adb%20shell%20pm%20set%2Dapp%2Dlinks%20%2D%2Dpackage%20PACKAGE_NAME%200%20all
+[See here](troubleshooting_questions.md#33-how-can-i-make-links-open-in-a-patched-app)
 
 ## 34. How do I use YT Music with Android Auto?
 
-1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
-2. Scroll down to `Version and permission info`.
-3. Tap on it 10 times to enter developer mode.
-4. Tap the 3 dots in the upper-right corner of your screen and open the Developer settings.
-5. Scroll down and enable `Unknown sources`.
-
-You may need to update/change to [Morphe MicroG](https://morphe.software/microg) if you are using an old MicroG release.
-
-Be aware that most YT Music Android Auto features require a YouTube Premium subscription.
+[See here](troubleshooting_questions.md#34-how-do-i-use-yt-music-with-android-auto)
 
 ## 40. Capture logs 
 
-### Using Morphe log collector website
-
-1. If using YouTube or YT Music, turn on `Miscellaneous > Debugging > Debug logging`. Do not turn on stack trace or protocol logging unless you are instructed to. If YouTube fails to launch then skip this step.
-2. Enable developer mode on your phone: https://developer.android.com/studio/debug/dev-options
-3. Verify "USB debugging" is enabled in your device Settings > Developer menu
-4. Connect your phone to a computer with a usb cable
-5. Visit https://debug.morphe.software on your computer
-6. Press "Connect device" button on the log website
-7. Approve the developer prompt on your phone
-8. Press "save" button on the website
-
-If logs do not show on the website, unplug your phone and retry again from step 4 thru 8
-
-### Using a computer, usb cable, and terminal console
-
-<!-- For patches it's better to grep with "morphe:" but that doesn't capture Morphe Manager logs -->
-1. Turn on `Miscellaneous > Debugging > Debug logging` in the settings.
-2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep 'morphe\|AndroidRuntime` to log both Morphe and crash logs. To save the logs to a file use  `adb logcat | grep 'morphe\|AndroidRuntime' > logs.txt`
-3. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
-4. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (No ADB or computer setup is required). But due to clipboard limitations the log is limited to the most recent log data. Crash logs can only be collected using a computer and ADB.
-
-For problems with patching itself rather than with a patched app, export the logs from `Settings > System > Debug` in Morphe Manager, or copy the patcher log straight off the patching screen in Expert mode. See [How patching works and how to tune it](https://github.com/MorpheApp/morphe-manager/blob/main/docs/patching-process.md#when-patching-fails).
+[See here](troubleshooting_questions.md#40-capture-logs)
 
 ## 50. How can I help?
 
-Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://github.com/MorpheApp) and contribute to Morphe by creating an issue or pull request.
-You can also help with translations on [Crowdin](https://morphe.software/translate).
-
-Additionally, [financial donations](https://morphe.software/donate) are always welcome.
+[See here](troubleshooting_questions.md#50-how-can-i-help)
 
 ## 51. Why the name Morphe?
 
-Because "Android App Modification And Transformation Tool" (AAMATT) is not very catchy. And because Morphe implies it morphs your apps into something better.
+[See here](troubleshooting_questions.md#51-why-the-name-morphe)
 
 ## 52. Is Morphe affiliated with ReVanced?
 
-Morphe is not affiliated with ReVanced. Morphe was created by a team of former ReVanced developers and contributors.
+[See here](troubleshooting_questions.md#52-is-morphe-affiliated-with-revanced)
 
 ## 53. What is Morphe's privacy policy?
 
-The [website](https://morphe.software) uses [Umami](https://umami.is) and Google Analytics 4: No cookies, no advertising, no profiling, and no data is sold or shared. Morphe does not add analytics or data collection to any patched apps.
+[See here](troubleshooting_questions.md#53-what-is-morphes-privacy-policy)

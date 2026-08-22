@@ -1,91 +1,65 @@
-# Troubleshooting
-
-This is a collection of common errors and fixes.
+# This guide has moved to [here](troubleshooting_questions.md)
 
 ## 4. YouTube Audio track menu is missing
 
-Ensure `Settings > Morphe > About` says "You are using the latest patches"
-
-Then change to `TV` in : `Settings > Morphe > Miscellaneous > Spoof video streams > Default client`
+[See here](troubleshooting_questions.md#4-youtube-audio-track-menu-is-missing)
 
 ## 5. Videos play with auto-dubbed audio translations
 
-Ensure `Settings > Morphe > Video > Force original audio language` is enabled.
-
-You may also need to change to a spoof client that supports multiple audio tracks (see item 4 above).
-
-If the audio is still auto-dubbed and "Stats for nerds" always shows `Android Studio`, then the original audio cannot be forced and currently there is no solution.
+[See here](troubleshooting_questions.md#5-videos-play-with-auto-dubbed-audio-translations)
 
 ## 7. Stable volume is not available
 
-Change the spoof client to either `visionOS` or `TV Simply`, see item 4 above.
+[See here](troubleshooting_questions.md#7-stable-volume-is-not-available)
 
 ## 8. Children/music videos do not play and an error is shown
 
-A YouTube account is required to play most children's videos. Ensure you are logged into a YouTube account and incognito mode is not enabled.
+[See here](troubleshooting_questions.md#8-childrenmusic-videos-do-not-play-and-an-error-is-shown)
 
 ## 15. App shows "No internet connection"
 
-This issue can happen after making changes to your Google account. Uninstall and reinstall [microG](https://morphe.software/microg).
+[See here](troubleshooting_questions.md#15-app-shows-no-internet-connection)
 
 ## 16. YouTube is showing the player overlay buttons all the time
 
-Verify you did not enable the stock YouTube accessibility feature:
-`Settings > Accessibility > Accessibility player > Off`
+[See here](troubleshooting_questions.md#16-youtube-is-showing-the-player-overlay-buttons-all-the-time)
 
 ## 18. YouTube Watch history is not being saved
 
-If you use a system ad-blocker, then whitelist `s.youtube.com`. Otherwise verify watch history works with unpatched YouTube, and check your YouTube/Google account permissions and ensure your account watch history is enabled.
+[See here](troubleshooting_questions.md#18-youtube-watch-history-is-not-being-saved)
 
 ## 20. YouTube Shorts tab button is missing
 
-Disable `Settings > Morphe > General > Navigation buttons > Hide Shorts button`.
+[See here](troubleshooting_questions.md#20-youtube-shorts-tab-button-is-missing)
 
 ## 21. YouTube now looks different and I want the old UI
 
-Enable: `Settings > Morphe > General > Spoof app version`
-
-and optionally pick a spoof version:
-`Settings > Morphe > General > Spoof app target`
-
-If you still don't have the old UI, then [patch an older version of YouTube](questions.md#21-what-if-i-want-to-use-an-older-version-of-youtube).
+[See here](troubleshooting_questions.md#21-youtube-now-looks-different-and-i-want-the-old-ui)
 
 ## 22. MicroG Google login does not work
 
-Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication. Certain managed accounts such as Google Workspace, or family managed accounts may not work.
-
-Some devices may require temporarily enabling the "Appear on top" MicroG overlay permission for login to work.
-
-Some devices may require using the "Huawei login" button, even if not using a Huawei device.
+[See here](troubleshooting_questions.md#22-microg-google-login-does-not-work)
 
 ## 30. Installation is blocked due to conflicting with an existing installation
 
-This implies that you must remove the previous installation to solve the conflict.
-
-This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc). If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
-
-Patching in root mount mode avoids the conflict entirely, because the patched APK is mounted over the stock app instead of installed, see [Root mount](https://github.com/MorpheApp/morphe-manager/blob/main/docs/installers.md#root-mount-in-detail).
+[See here](troubleshooting_questions.md#30-installation-is-blocked-due-to-conflicting-with-an-existing-installation)
 
 ## 32. YouTube push notifications do not work
 
-If you recently uninstalled/reinstalled MicroG, and did not also uninstall/reinstall patched YouTube, then you may need to clear the YouTube app data for push notifications to work again.
+[See here](troubleshooting_questions.md#32-youtube-push-notifications-do-not-work)
 
 ## 33. Links don't open in a patched app
 
-Follow [this](questions.md#33-how-can-i-make-links-open-in-a-patched-app).
+[See here](troubleshooting_questions.md#33-links-dont-open-in-a-patched-app)
 
 ## 34. Patched app does not work with Android Auto
 
-See [here](questions.md#34-how-do-i-use-yt-music-with-android-auto)
+[See here](troubleshooting_questions.md#34-patched-app-does-not-work-with-android-auto)
 
 ## 35. SponsorBlock does not work
 
-This likely means that the SponsorBlock servers are having issues. You can check the server status [here](https://status.sponsor.ajay.app/) and try again later.
+[See here](troubleshooting_questions.md#35-sponsorblock-does-not-work)
 
 ## 50. YouTube or YT Music playback does not work
 
-First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](questions.md#22-how-to-update-patched-apps) for additional information on updating.
-
-Search for existing issues [here](https://github.com/MorpheApp/morphe-patches/issues?q=is%3Aissue%20state%3Aopen) as all known issues will have an existing issue.
-
-If videos on YouTube are pausing instantly when you press the play button, then you must disable Picture-in-picture due to an issue with your OS/YouTube.
+[See here](troubleshooting_questions.md#50-youtube-or-yt-music-playback-does-not-work)
