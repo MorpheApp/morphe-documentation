@@ -78,6 +78,8 @@ Patching in root mount mode avoids the conflict entirely, because the patched AP
 
 If you recently uninstalled/reinstalled MicroG, and did not also uninstall/reinstall patched YouTube, then you may need to clear the YouTube app data for push notifications to work again.
 
+If your device has any kind of "auto optimization" or "memory cleanup" feature, then you may need to whitelist MicroG to prevent the system from "optimizing" MicroG and shutting it down.
+
 ## 33. Links don't open in a patched app
 
 > [!NOTE]
