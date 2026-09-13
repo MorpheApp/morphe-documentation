@@ -111,6 +111,8 @@ adb shell pm set-app-links-user-selection --user 0 --package app.morphe.android.
 
  https://developer.android.com/training/app-links/verify-applinks#:~:text=adb%20shell%20pm%20set%2Dapp%2Dlinks%20%2D%2Dpackage%20PACKAGE_NAME%200%20all
 
+Meta apps may require disabling the system app "Meta app manager" if present.
+
 ## 34. Patched app does not work with Android Auto
 
 1. Go to the [Android Auto](https://developer.android.com/training/cars/testing?utm_source=android-studio-app#developer-mode) settings on your device.
