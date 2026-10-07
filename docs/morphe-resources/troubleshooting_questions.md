@@ -51,7 +51,7 @@ If you still don't have the old UI, then you can try patching an older version o
 Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
 - YouTube: `20.21.37`
 - YT Music: `9.15.51`
-- Reddit: `2026.04.0`
+- Reddit: `2026.10.0`
 
 But always ensure you have the latest patches, even when patching older app versions.
 
