@@ -8,6 +8,7 @@ Documentation to start working with Morphe.
 
 - [💼 Prerequisites](0_prerequisites.md)
 - [👨‍💻 Setup a development environment for Morphe](1_setup.md)
+- [🔏 Signing your patches](2_signing.md)
 - [🧩 How to create fingerprints and patches](https://github.com/MorpheApp/morphe-patcher/blob/main/docs/README.md)
 
 
