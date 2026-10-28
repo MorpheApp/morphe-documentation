@@ -49,7 +49,7 @@ and optionally pick a spoof version:
 If you still don't have the old UI, then you can try patching an older version of YouTube.
 
 Morphe supports patching some older versions of YouTube. At the present time the oldest versions that can be patched are:
-- YouTube: `20.21.37`
+- YouTube: `20.26.46`
 - YT Music: `9.15.51`
 - Reddit: `2026.10.0`
 

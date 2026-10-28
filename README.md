@@ -5,8 +5,7 @@ Collection of all Morphe documentation.
 &nbsp;
 ## 📖 Table of contents
 
-- [Frequently asked questions](docs/morphe-resources/questions.md)
-- [Troubleshooting](docs/morphe-resources/troubleshooting.md)
+- [Troubleshooting and frequently asked questions](docs/morphe-resources/troubleshooting_questions.md)
 
 &nbsp;
 ## Patching with Morphe
@@ -17,5 +16,7 @@ Collection of all Morphe documentation.
 ## Developing with Morphe
 - [🛠️ Morphe Development](docs/morphe-development/README.md): Setting up a development environment for Morphe and creating patches
 
-
-<!-- Note: All documentation in this repo is a fork from the prior works of https://github.com/ReVanced/revanced-documentation/tree/b62d542f94b1d457953e1a98c34249010a75bdcd -->
+<!-- 
+     Note: All documentation in this repo is a hard fork from the prior works of
+     https://github.com/ReVanced/revanced-documentation/tree/b62d542f94b1d457953e1a98c34249010a75bdcd
+-->
