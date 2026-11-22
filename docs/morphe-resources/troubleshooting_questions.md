@@ -214,6 +214,18 @@ To restore your settings, paste your settings into the same `Import / Export` te
 
 This covers the settings inside the patched app. Morphe Manager's own settings, patch selections, and signing keystore are backed up separately, see [Backing up Morphe and your keystore](https://github.com/MorpheApp/morphe-manager/blob/main/docs/backup-and-keystore.md).
 
+## 114. How do I download YouTube videos?
+
+YouTube Morphe can send videos to an external downloader app, such as [YTDLnis](https://ytdlnis.org) or [Seal](https://github.com/JunkFood02/Seal/releases/latest).
+
+1. Install a downloader app.
+2. In YouTube, go to: `Settings > Morphe > Player > Downloads`
+3. Set `Download mode` to `External downloader`.
+4. Tap `Downloader package name` and pick your downloader. YTDLnis is always listed, and other supported apps such as Seal appear once they are installed. For any other app, choose `Other` and enter its package name.
+5. Press the `Download` button below a video to open it in your downloader app.
+
+Optionally, turn on `Show player overlay download button` to also get a download button in the video player. With YTDLnis, `Quick download on tap` starts a download without leaving YouTube.
+
 ## 116. Capture logs 
 
 ### Using Morphe log collector website
